@@ -45,7 +45,7 @@ docker run -d \
 ```yaml
 services:
   icmp9:
-    image: nap0o/icmp9:latest
+    image: gaodashang167/mp9:latest
     container_name: icmp9
     restart: always
     network_mode: "host"
